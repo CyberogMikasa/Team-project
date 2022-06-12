@@ -1,4 +1,16 @@
-.paragraph{
-    font-family: 'Open Sans', sans-serif;
-
+a:link{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;    
+    color: black;
+    border-style: solid;
+    background-color:darkorange;
+}
+.menu{
+    text-align: center;
+    word-spacing: 350px;
+    top: 100px;
+}
+a:visited{
+    color: black;
 }
