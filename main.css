@@ -1,16 +1,38 @@
-a:link{
+a{
     text-decoration: none;
-    font-size: 30px;
     font-family: 'Roboto', sans-serif;    
-    color: black;
-    border-style: solid;
-    background-color:darkorange;
+    color:rgb(255, 236, 236);
+    display: grid;
+    width: 130px;
+    height: 40px;
+    background: linear-gradient(
+        #9365ff,
+        #c13bff,
+        #F180FA
+        
+    );
+    place-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+
 }
 .menu{
-    text-align: center;
-    word-spacing: 350px;
-    top: 100px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
 }
 a:visited{
-    color: black;
+    color:rgb(255, 236, 236);
+}
+.p-yummy{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.group-cake{
+    width: 400px;
+    height: 500px;
+}
+.group-cake-style{
+    display: flex;
+    justify-content: space-between;
 }
