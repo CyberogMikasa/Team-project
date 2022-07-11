@@ -22,6 +22,7 @@ a:visited{
 .p-yummy{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
+    color: white;
 }
 .group-cake{
     width: 450px;
@@ -46,4 +47,8 @@ a span{
 a i{
     position: absolute;
     display: block;
+}
+.group-cakes-other{
+    width: 450px;
+    height: 500px;
 }
